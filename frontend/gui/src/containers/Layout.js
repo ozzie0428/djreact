@@ -20,7 +20,7 @@ const CustomLayout = (props) => {
             <Breadcrumb.Item>List</Breadcrumb.Item>
             <Breadcrumb.Item>App</Breadcrumb.Item>
           </Breadcrumb>
-          <div style={{background: '#fff', padding: 75, minHeight: 28}}>
+          <div className="site-layout-content">
           {props.children}
           </div>
         </Content>
